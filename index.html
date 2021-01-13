@@ -21,12 +21,15 @@
     <link rel="stylesheet" href="anim.css">
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body style="margin: 0px">
+    <div class='body'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+    style="padding-left: 20px;">
 
-      <a class="navbar-brand" href="#">
-        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Bootstrap
+      <a class="navbar-brand" href="index.html">
+        <img src="images/24px/barcode-qr.svg" width="30" height="30"
+        class="d-inline-block align-top" alt="">
+         QR tech
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,17 +39,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+            <a class="nav-link" href="#"> 1st Link </a>
+          </li>  <li class="nav-item">
+              <a class="nav-link" href="#"> 2nd Link </a>
+            </li>
         </ul>
       </div>
 
@@ -63,19 +62,18 @@
               <li data-target="#carol" data-slide-to="1"></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100"
-                style="opacity: .5" src="images/inc_prod.jpg">
+              <div class="carousel-item active"
+              style="background-image: url(images/inc_prod.jpg); background-position: center;
+              background-repeat: no-repeat; background-size: 1300px auto;">
                 <div class="carousel-caption d-none d-md-block">
                   <h2 style="margin-top:0px; margin-bottom:0px;"
                   class="caros_txt">Introducing The All New DualWave 3.0</h2>
                   <br>
-                  <p class="caros_txt">Take Your Productivity To The Next LVL</p>
+                  <p class="caros_txt">Increase Productivity And Take Your Development To The Next LVL</p>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100"
-                style="opacity: .5" src="images/db.jpg">
+              <div class="carousel-item"style="background-image: url(images/db.jpg); background-position: center;
+              background-repeat: no-repeat; background-size: 1300px auto;">
                 <div class="carousel-caption d-none d-md-block">
                   <h2 style="margin-top:0px; margin-bottom:0px;"
                   class="caros_txt">No Servers? No Problem.</h2>
@@ -168,22 +166,119 @@
 
       </article>
 
-      <article class="form">
-        <h1>SIGN UP FOR NEWS LETTER</h1>
-        <p style="font-family: Chivo">Opt-in for discounts, product news,
-        tips and tricks, etc.</p>
-        <div class='form_box'>
-          <form action='email/'>
-            <input type='text' name='name'
-            placeholder="First and Last name" required>
-            <input class="hvr-underline-from-left" type='email' name='email'
-            placeholder="Enter Email" required>
-            <input class="submit"
-            type='submit'>
-          </form>
-        </div>
+      <!-- Begin Mailchimp Signup Form -->
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+      	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+      	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
+      <div id="mc_embed_signup" style="display: flex;
+      justify-content: center; align-items: center;
+      flex-direction: column;">
+      <form action="https://gmail.us4.list-manage.com/subscribe/post?u=eddd7efd7a0515ebb511c40dc&amp;id=5db95f05e2" method="post"
+      id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+      style="width: 100%;"target="_blank" novalidate>
+          <div style="display: flex;
+          justify-content: center; align-items: center;
+          flex-direction: column" id="mc_embed_signup_scroll">
+      	<h1 style="margin-bottom: 20px">SIGN UP FOR OUR NEWSLETTER</h1>
+          <p style="margin-bottom: 40px; font-family: Chivo">Opt-in for discounts, product news,
+          tips and tricks, etc.</p>
+      <div>
+      	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+      </label>
+      	<input type="email" value="" name="EMAIL" class="required email"
+        style="border-radius: 0px; border:none; width: 350px;
+        border-bottom: 2px solid grey;"
+        id="mce-EMAIL">
+      </div>
+      <div>
+      	<label for="mce-FNAME">First Name </label>
+      	<input type="text" value="" name="FNAME" class=""
+        style="border-radius: 0px; border:none; width: 350px;
+        border-bottom: 2px solid grey;"id="mce-FNAME">
+      </div>
+      <div>
+      	<label for="mce-LNAME">Last Name </label>
+      	<input type="text" value="" name="LNAME" class=""
+        style="border-radius: 0px; border:none; width: 350px;
+        border-bottom: 2px solid grey;"id="mce-LNAME">
+      </div>
+      	<div id="mce-responses" style="display:flex; justify-content: center;">
+      		<div class="response" id="mce-error-response" style="display:none; width: 500px"></div>
+      		<div class="response" id="mce-success-response" style="display:none; width: 500px"></div>
+      	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eddd7efd7a0515ebb511c40dc_5db95f05e2" tabindex="-1" value=""></div>
+          <input type="submit" class="submit" value="Subscribe" name="subscribe"
+          style="border-radius: 0px; border:none; margin:0; margin-top: 20px; border-bottom: 2px solid grey;"
+          id="mc-embedded-subscribe" class="button">
+          </div>
+      </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
 
-      </article>
+    <footer>
+      <div class='footer'>
+      <div class='foot_con'>
+        <h2 style='font-size: 25px;
+        color:rgba(37,37,37,1)'>New Products</h2>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+      </div>
+      <div class='foot_con'>
+        <h2 style='font-size: 25px;
+        color:rgba(37,37,37,1)'>Services</h2>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+      </div>
+     <div class='foot_con'>
+       <h2 style='font-size: 25px;
+       color:rgba(37,37,37,1)'>Community</h2>
+         <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+        <a class='foot_a' href="">Example Footer Link</a>
+      </div>
+      <div class='foot_con'>
+        <h2 style='font-size: 25px;
+        color:rgba(37,37,37,1)'>Developer</h2>
+         <a class='foot_a' href="">Example Footer Link</a>
+         <a class='foot_a' href="">Example Footer Link</a>
+         <a class='foot_a' href="">Example Footer Link</a>
+         <a class='foot_a' href="">Example Footer Link</a>
+         <a class='foot_a' href="">Example Footer Link</a>
+         <a class='foot_a' href="">Example Footer Link</a>
+       </div>
+       <div class='foot_con'>
+         <h2 style='font-size: 25px;
+         color:rgba(37,37,37,1)'>Social Media</h2>
+          <a class='foot_a' href="">Example Footer Link</a>
+          <a class='foot_a' href="">Example Footer Link</a>
+          <a class='foot_a' href="">Example Footer Link</a>
+          <a class='foot_a' href="">Example Footer Link</a>
+          <a class='foot_a' href="">Example Footer Link</a>
+          <a class='foot_a' href="">Example Footer Link</a>
+        </div>
+      </div>
+      <br>
+      <div style="display:flex;justify-content: center;
+      align-items: center; width: 100%;height:100px;">
+      <p> Designed By Aaron_C2 </p>
+      </div>
+    </footer>
 
     </body>
 

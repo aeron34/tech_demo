@@ -8,13 +8,23 @@
   position: relative;
 }
 
+footer{
+  background-color: rgba(176,176,176,1);
+  margin-bottom: 10%;
+}
+.footer {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+}
 nav {
   margin-bottom: 10px;
 }
 
 .caros_txt {
   display:inline-block;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.75);
   padding:10px;
   margin: 0px;
 }
@@ -40,12 +50,13 @@ nav {
   background-size: cover;
 }
 
-body {
+.body {
   margin:0px;
   padding-left:50px;
   padding-right:50px;
-
+  margin-bottom: 10%;
 }
+
 .form_box{
   padding: 20px;
   width: 50%;
@@ -64,12 +75,30 @@ input {
     display:block;
     outline: none;
 }
-input:focus {
-  border-bottom: 2px solid blue;
+
+.foot_con {
+  padding: 20px;
+  padding-top:50px;
+  background-color: rgba(176,176,176,1);
+}
+
+.foot_a {
+  color:rgba(96,97,97,1);
+  display: block;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border:none;
+}
+
+.foot_a:hover {
+  text-decoration: none;
+  color:rgba(96,97,97,1);
+  border:none;
 }
 
 .submit {
   background-color: white;
+  border:none;
   border-bottom: 2px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -86,4 +115,17 @@ input:focus {
 
 .main {
   top: 50px;
+}
+
+@media screen and (max-width: 900px)
+{
+  .footer {
+    display:block;
+    width: 100%;
+  }
+  .foot_con{
+    display: block;;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
