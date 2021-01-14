@@ -1,3 +1,3 @@
 # tech_demo
 
-## Showcasing my skills in creating a website with ecommerce functionality
+## Showcasing my HTML5, CSS3 skills in creating a website with Mail Chimp functionality
